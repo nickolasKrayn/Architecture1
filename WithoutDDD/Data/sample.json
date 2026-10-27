@@ -1,0 +1,87 @@
+{
+  "payrollId": 1004,
+  "driverId": 7,
+  "from": "2026-11-01T00:00:00+03:00",
+  "toExclusive": "2026-12-01T00:00:00+03:00",
+  "trips": [
+    {
+      "id": 71,
+      "driverId": 7,
+      "distanceKm": 40,
+      "isNight": false,
+      "isCompleted": true,
+      "isConfirmed": true,
+      "completedAt": "2026-11-10T12:00:00+03:00"
+    },
+    {
+      "id": 72,
+      "driverId": 7,
+      "distanceKm": 40,
+      "isNight": true,
+      "isCompleted": true,
+      "isConfirmed": true,
+      "completedAt": "2026-11-20T12:00:00+03:00"
+    },
+    {
+      "id": 73,
+      "driverId": 7,
+      "distanceKm": 40,
+      "isNight": false,
+      "isCompleted": true,
+      "isConfirmed": false,
+      "completedAt": "2026-11-22T12:00:00+03:00"
+    },
+    {
+      "id": 74,
+      "driverId": 8,
+      "distanceKm": 40,
+      "isNight": false,
+      "isCompleted": true,
+      "isConfirmed": true,
+      "completedAt": "2026-11-23T12:00:00+03:00"
+    },
+    {
+      "id": 75,
+      "driverId": 7,
+      "distanceKm": 40,
+      "isNight": false,
+      "isCompleted": true,
+      "isConfirmed": true,
+      "completedAt": "2026-10-30T12:00:00+03:00"
+    },
+    {
+      "id": 76,
+      "driverId": 7,
+      "distanceKm": 40,
+      "isNight": false,
+      "isCompleted": true,
+      "isConfirmed": true,
+      "completedAt": "2026-12-01T00:00:00+03:00"
+    },
+    {
+      "id": 77,
+      "driverId": 7,
+      "distanceKm": 12,
+      "isNight": false,
+      "isCompleted": false,
+      "isConfirmed": false,
+      "completedAt": null
+    }
+  ],
+  "tariffs": [
+    {
+      "driverId": 7,
+      "effectiveFrom": "2026-10-01T00:00:00+03:00",
+      "perTrip": 1000,
+      "perKm": 25,
+      "nightBonusPercent": 25
+    },
+    {
+      "driverId": 7,
+      "effectiveFrom": "2026-11-15T00:00:00+03:00",
+      "perTrip": 1000,
+      "perKm": 30,
+      "nightBonusPercent": 25
+    }
+  ]
+}
